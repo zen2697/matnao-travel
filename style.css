@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header {
+    background-image: url(./Images/header-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.header-aside {
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 5;
+}
+
+.menu-list {
+    padding-top: 30px;
+}
+
+.menu-list li a span {
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    display: block;
+    padding-top: 5px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
