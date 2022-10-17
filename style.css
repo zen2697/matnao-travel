@@ -10,6 +10,7 @@ body {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    background-color: black;
 }
 
 .header {
@@ -17,6 +18,34 @@ body {
     background-size: cover;
     height: 100vh;
     position: relative;
+    z-index: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.header-title {
+    position: absolute;
+    z-index: 4;
+    top: 10px;
+    left: 50px;
+    font-size: 130px;
+    opacity: 0.07;
+    font-weight: 800;
+    max-width: 467px;
+    line-height: 156px;
+}
+
+.header-map {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.header-arrows {
+    position: absolute;
+    bottom: 70px;
+    left: 200px;
 }
 
 .header-aside {
@@ -30,7 +59,8 @@ body {
 }
 
 .menu-list {
-    padding-top: 30px;
+    padding-top: 35px;
+    padding: 35px 0 0 0;
 }
 
 .menu-list li a span {
@@ -42,4 +72,37 @@ body {
     padding-top: 5px;
     font-size: 12px;
     margin-bottom: 20px;
+}
+
+.header-search {
+    padding: 10px 0 20px 0;
+}
+
+.header-date-day {
+    font-size: 70px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.header-date-month {
+    font-size: 16px;
+    display: block;
+    /* padding: 10px 0 20px 0; */
+    font-weight: 400;
+}
+
+.header-location {
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    color: #fff;
+}
+
+.header-location img {
+    padding-right: 7px;
+}
+
+
+.menu-list a:link {
+    text-decoration: none;
 }
